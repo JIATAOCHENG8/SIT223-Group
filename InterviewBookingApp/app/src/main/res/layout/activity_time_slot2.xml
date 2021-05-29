@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timeSlotActivity">
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="258dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="time"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="377dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+        android:text="here is to select a slot time for your date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+
+    <TextView
+        android:id="@+id/m8TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:background="#8BC34A"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="8:00-8:30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/a13TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="13:00-13:30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/a13hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="13:30-14:00"
+        app:layout_constraintStart_toEndOf="@+id/a13TextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/a14TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="14:00-14:30"
+        app:layout_constraintStart_toEndOf="@+id/a13hTextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/a14hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="14:30-15:00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a13TextView" />
+
+    <TextView
+        android:id="@+id/a15TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="15:00-15:30"
+        app:layout_constraintStart_toEndOf="@+id/a14hTextView"
+        app:layout_constraintTop_toBottomOf="@+id/a13hTextView" />
+
+    <TextView
+        android:id="@+id/a15hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="15:30-16:00"
+        app:layout_constraintStart_toEndOf="@+id/a15TextView"
+        app:layout_constraintTop_toBottomOf="@+id/a14TextView" />
+
+    <TextView
+        android:id="@+id/m10hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="10:30-11:00"
+        app:layout_constraintStart_toEndOf="@+id/m10TextView"
+        app:layout_constraintTop_toBottomOf="@+id/m9TextView" />
+
+    <TextView
+        android:id="@+id/m9hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="9:30-10:00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m8TextView" />
+
+    <TextView
+        android:id="@+id/m9TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="9:00-9:30"
+        app:layout_constraintStart_toEndOf="@+id/m8hTextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/m8hTextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="8:30-9:00"
+        app:layout_constraintStart_toEndOf="@+id/m8TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/m10TextView"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="10:00-10:30"
+        app:layout_constraintStart_toEndOf="@+id/m9hTextView"
+        app:layout_constraintTop_toBottomOf="@+id/m8hTextView" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="398dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m10hTextView"
+        app:srcCompat="@android:drawable/screen_background_dark" />
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="92dp"
+        android:text="book"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a15TextView" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="112dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Time selected:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a14hTextView" />
+
+    <TextView
+        android:id="@+id/slotTextView"
+        android:layout_width="133dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/a15TextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
